@@ -1,0 +1,1151 @@
+{
+  "url": "https://marianaog30.github.io/ai-tools-logifresh-OROZCO/",
+  "results": [
+    {
+      "case": 0,
+      "filters": {},
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$359,900",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$208,049",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$179,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$119,400",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$16,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "14",
+              "meta": "5.8% de 240 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "12",
+              "meta": "5.0% de 240 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "8",
+              "meta": "3.3% de 240 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "75.0%",
+              "meta": "36 cumplen / n = 48",
+              "name": "Berries"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Congelados"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 184/240 cumplen (76.7%); 13.3 pp por debajo de la meta de 90%. Junio registra 30.0% (24/80).Registro: 52 incidentes; 56 de 56 tardíos figuran “Sin incidente”. 9 excursiones >8 °C. Esto no identifica causas.Monto: $882,549 MXN. Preparados concentra $359,900 (40.8%).",
+        "hypotheses": "Registro incompleto: los 56 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-13.3 pp",
+          "excursiones": "9",
+          "incidentes": "52",
+          "reclamaciones": "$882,549 MXN",
+          "retraso": "51.8 min",
+          "satisfaccion": "8.5 /10",
+          "sla": "76.7 %",
+          "total": "240"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (30.0% SLA; n=80) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 12",
+        "rows": [
+          "LF-000101/04/2026CDMX → MéridaLácteosNorteCumple0.0Falla mecánica3.2$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 520 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005701/04/2026Monterrey → MéridaCongeladosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-19Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 752 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000202/04/2026Guadalajara → TolucaCongeladosCentroCumple0.0Falla mecánica3.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 657 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003002/04/2026León → HermosilloBerriesCentroCumple0.0Temperatura9.0$0VerUnidad: U-30Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 2,013 kmOcupación: 95.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-005802/04/2026Puebla → TolucaPreparadosCentroCumple0.0Sin incidente4.3$0VerUnidad: U-20Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 889 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000303/04/2026Monterrey → ChihuahuaPreparadosPacíficoCumple0.0Falla mecánica3.9$145,000VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 794 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003103/04/2026CDMX → VeracruzLácteosPacíficoCumple0.0Temperatura9.6$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,150 kmOcupación: 89.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005903/04/2026Querétaro → ChihuahuaCárnicosPacíficoCumple0.0Sin incidente4.6$0VerUnidad: U-21Tipo de ruta: EstándarTránsito: 7 hDistancia: 1,026 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000404/04/2026Puebla → TijuanaCárnicosSuresteCumple0.0Falla mecánica4.3$0VerUnidad: U-04Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 931 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006004/04/2026León → TijuanaBerriesSuresteCumple0.0Sin incidente5.0$0VerUnidad: U-22Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 1,163 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000505/04/2026Querétaro → CancúnBerriesNorteCumple0.0Falla mecánica4.6$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,068 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-006105/04/2026CDMX → CancúnLácteosNorteCumple0.0Sin incidente5.3$0VerUnidad: U-23Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 1,300 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000606/04/2026León → HermosilloLácteosCentroCumple0.0Falla mecánica5.0$0VerUnidad: U-06Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 1,205 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003406/04/2026Puebla → TolucaCárnicosCentroCumple0.0Temperatura11.4$0VerUnidad: U-34Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 2,561 kmOcupación: 88.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006206/04/2026Guadalajara → HermosilloCongeladosCentroCumple0.0Sin incidente5.7$52,600VerUnidad: U-24Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,437 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000707/04/2026CDMX → VeracruzCongeladosPacíficoCumple0.0Falla mecánica5.3$0VerUnidad: U-07Tipo de ruta: PrioritariaTránsito: 12 hDistancia: 1,342 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10"
+        ],
+        "scope": "240 de 240 embarques · Todos los filtros · Periodo seleccionado: 01/04/2026–28/06/2026",
+        "tableCount": "240 embarques en la selección",
+        "trend": [
+          "Abril80 / 80100.0%",
+          "Mayo80 / 80100.0%",
+          "Junio24 / 8030.0%"
+        ]
+      }
+    },
+    {
+      "case": 1,
+      "filters": {
+        "mes": "2026-04"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$319,600",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$193,250",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$157,000",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$92,300",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "14",
+              "meta": "17.5% de 80 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "12",
+              "meta": "15.0% de 80 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "9",
+              "meta": "11.3% de 80 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "9",
+              "meta": "11.3% de 80 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "8",
+              "meta": "10.0% de 80 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Berries"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Congelados"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 80/80 cumplen (100.0%); 10.0 pp sobre la meta de 90%. Abril registra 100.0% (80/80).Registro: 52 incidentes; 0 de 0 tardíos figuran “Sin incidente”. 9 excursiones >8 °C. Esto no identifica causas.Monto: $762,150 MXN. Preparados concentra $319,600 (41.9%).",
+        "hypotheses": "Registro incompleto: la ausencia de tardíos sin clasificar en este corte no descarta problemas de registro en otros segmentos. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "+10.0 pp",
+          "excursiones": "9",
+          "incidentes": "52",
+          "reclamaciones": "$762,150 MXN",
+          "retraso": "— min",
+          "satisfaccion": "8.5 /10",
+          "sla": "100.0 %",
+          "total": "80"
+        },
+        "next": "Propuesta: usar Abril como referencia del corte (100.0% SLA; n=80) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 4",
+        "rows": [
+          "LF-000101/04/2026CDMX → MéridaLácteosNorteCumple0.0Falla mecánica3.2$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 520 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005701/04/2026Monterrey → MéridaCongeladosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-19Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 752 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000202/04/2026Guadalajara → TolucaCongeladosCentroCumple0.0Falla mecánica3.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 657 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003002/04/2026León → HermosilloBerriesCentroCumple0.0Temperatura9.0$0VerUnidad: U-30Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 2,013 kmOcupación: 95.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-005802/04/2026Puebla → TolucaPreparadosCentroCumple0.0Sin incidente4.3$0VerUnidad: U-20Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 889 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000303/04/2026Monterrey → ChihuahuaPreparadosPacíficoCumple0.0Falla mecánica3.9$145,000VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 794 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003103/04/2026CDMX → VeracruzLácteosPacíficoCumple0.0Temperatura9.6$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,150 kmOcupación: 89.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005903/04/2026Querétaro → ChihuahuaCárnicosPacíficoCumple0.0Sin incidente4.6$0VerUnidad: U-21Tipo de ruta: EstándarTránsito: 7 hDistancia: 1,026 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000404/04/2026Puebla → TijuanaCárnicosSuresteCumple0.0Falla mecánica4.3$0VerUnidad: U-04Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 931 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006004/04/2026León → TijuanaBerriesSuresteCumple0.0Sin incidente5.0$0VerUnidad: U-22Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 1,163 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000505/04/2026Querétaro → CancúnBerriesNorteCumple0.0Falla mecánica4.6$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,068 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-006105/04/2026CDMX → CancúnLácteosNorteCumple0.0Sin incidente5.3$0VerUnidad: U-23Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 1,300 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000606/04/2026León → HermosilloLácteosCentroCumple0.0Falla mecánica5.0$0VerUnidad: U-06Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 1,205 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003406/04/2026Puebla → TolucaCárnicosCentroCumple0.0Temperatura11.4$0VerUnidad: U-34Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 2,561 kmOcupación: 88.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006206/04/2026Guadalajara → HermosilloCongeladosCentroCumple0.0Sin incidente5.7$52,600VerUnidad: U-24Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,437 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000707/04/2026CDMX → VeracruzCongeladosPacíficoCumple0.0Falla mecánica5.3$0VerUnidad: U-07Tipo de ruta: PrioritariaTránsito: 12 hDistancia: 1,342 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10"
+        ],
+        "scope": "80 de 240 embarques · Mes: Abril · Periodo seleccionado: 01/04/2026–28/04/2026",
+        "tableCount": "80 embarques en la selección",
+        "trend": [
+          "Abril80 / 80100.0%"
+        ]
+      }
+    },
+    {
+      "case": 2,
+      "filters": {
+        "mes": "2026-04",
+        "producto": "Preparados"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$319,600",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Preparados"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "3",
+              "meta": "18.8% de 16 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "2",
+              "meta": "12.5% de 16 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "2",
+              "meta": "12.5% de 16 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "2",
+              "meta": "12.5% de 16 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "1",
+              "meta": "6.3% de 16 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "100.0%",
+              "meta": "16 cumplen / n = 16",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 16/16 cumplen (100.0%); 10.0 pp sobre la meta de 90%. Abril registra 100.0% (16/16).Registro: 10 incidentes; 0 de 0 tardíos figuran “Sin incidente”. 2 excursiones >8 °C. Esto no identifica causas.Monto: $319,600 MXN. Preparados concentra $319,600 (100.0%).",
+        "hypotheses": "Registro incompleto: la ausencia de tardíos sin clasificar en este corte no descarta problemas de registro en otros segmentos. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "+10.0 pp",
+          "excursiones": "2",
+          "incidentes": "10",
+          "reclamaciones": "$319,600 MXN",
+          "retraso": "— min",
+          "satisfaccion": "8.5 /10",
+          "sla": "100.0 %",
+          "total": "16"
+        },
+        "next": "Propuesta: usar Abril como referencia del corte (100.0% SLA; n=16) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 1",
+        "rows": [
+          "LF-005802/04/2026Puebla → TolucaPreparadosCentroCumple0.0Sin incidente4.3$0VerUnidad: U-20Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 889 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000303/04/2026Monterrey → ChihuahuaPreparadosPacíficoCumple0.0Falla mecánica3.9$145,000VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 794 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-006307/04/2026Monterrey → VeracruzPreparadosPacíficoCumple0.0Sin incidente6.0$0VerUnidad: U-25Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 1,574 kmOcupación: 84.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000808/04/2026Guadalajara → San Luis PotosíPreparadosSuresteCumple0.0Falla mecánica5.7$132,500VerUnidad: U-08Tipo de ruta: EstándarTránsito: 13 hDistancia: 1,479 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003810/04/2026Guadalajara → HermosilloPreparadosCentroCumple0.0Documentación3.6$0VerUnidad: U-38Tipo de ruta: EstándarTránsito: 24 hDistancia: 629 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-006812/04/2026Guadalajara → TijuanaPreparadosSuresteCumple0.0Sin incidente4.6$0VerUnidad: U-30Tipo de ruta: EstándarTránsito: 16 hDistancia: 2,259 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-001313/04/2026CDMX → CancúnPreparadosNorteCumple0.0Falla mecánica4.3$0VerUnidad: U-13Tipo de ruta: PrioritariaTránsito: 18 hDistancia: 2,164 kmOcupación: 95.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-004315/04/2026CDMX → ChihuahuaPreparadosPacíficoCumple0.0Documentación5.3$0VerUnidad: U-05Tipo de ruta: PrioritariaTránsito: 10 hDistancia: 1,314 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-007317/04/2026CDMX → MéridaPreparadosNorteCumple0.0Sin incidente3.2$0VerUnidad: U-35Tipo de ruta: PrioritariaTránsito: 21 hDistancia: 2,944 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-001818/04/2026León → TolucaPreparadosCentroCumple0.0Ventana de entrega6.0$0VerUnidad: U-18Tipo de ruta: ConsolidadaTránsito: 23 hDistancia: 2,849 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-004820/04/2026León → San Luis PotosíPreparadosSuresteCumple0.0Tráfico3.9$0VerUnidad: U-10Tipo de ruta: ConsolidadaTránsito: 15 hDistancia: 1,999 kmOcupación: 89.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-007822/04/2026León → HermosilloPreparadosCentroCumple0.0Sin incidente5.0$42,100VerUnidad: U-02Tipo de ruta: ConsolidadaTránsito: 7 hDistancia: 1,149 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-002323/04/2026Querétaro → VeracruzPreparadosPacíficoCumple0.0Ventana de entrega4.6$0VerUnidad: U-23Tipo de ruta: EstándarTránsito: 9 hDistancia: 1,054 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-005325/04/2026Querétaro → CancúnPreparadosNorteCumple0.0Sin incidente5.7$0VerUnidad: U-15Tipo de ruta: EstándarTránsito: 20 hDistancia: 2,684 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002828/04/2026Puebla → TijuanaPreparadosSuresteCumple0.0Temperatura12.0$0VerUnidad: U-28Tipo de ruta: PrioritariaTránsito: 14 hDistancia: 1,739 kmOcupación: 90.0%Excursión >8 °C: SíSatisfacción: 9.0/10"
+        ],
+        "scope": "16 de 240 embarques · Mes: Abril · Producto: Preparados · Periodo seleccionado: 02/04/2026–28/04/2026",
+        "tableCount": "16 embarques en la selección",
+        "trend": [
+          "Abril16 / 16100.0%"
+        ]
+      }
+    },
+    {
+      "case": 0,
+      "filters": {},
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$359,900",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$208,049",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$179,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$119,400",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$16,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "14",
+              "meta": "5.8% de 240 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "12",
+              "meta": "5.0% de 240 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "8",
+              "meta": "3.3% de 240 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "75.0%",
+              "meta": "36 cumplen / n = 48",
+              "name": "Berries"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Congelados"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 184/240 cumplen (76.7%); 13.3 pp por debajo de la meta de 90%. Junio registra 30.0% (24/80).Registro: 52 incidentes; 56 de 56 tardíos figuran “Sin incidente”. 9 excursiones >8 °C. Esto no identifica causas.Monto: $882,549 MXN. Preparados concentra $359,900 (40.8%).",
+        "hypotheses": "Registro incompleto: los 56 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-13.3 pp",
+          "excursiones": "9",
+          "incidentes": "52",
+          "reclamaciones": "$882,549 MXN",
+          "retraso": "51.8 min",
+          "satisfaccion": "8.5 /10",
+          "sla": "76.7 %",
+          "total": "240"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (30.0% SLA; n=80) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 12",
+        "rows": [
+          "LF-000101/04/2026CDMX → MéridaLácteosNorteCumple0.0Falla mecánica3.2$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 520 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005701/04/2026Monterrey → MéridaCongeladosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-19Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 752 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000202/04/2026Guadalajara → TolucaCongeladosCentroCumple0.0Falla mecánica3.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 657 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003002/04/2026León → HermosilloBerriesCentroCumple0.0Temperatura9.0$0VerUnidad: U-30Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 2,013 kmOcupación: 95.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-005802/04/2026Puebla → TolucaPreparadosCentroCumple0.0Sin incidente4.3$0VerUnidad: U-20Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 889 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000303/04/2026Monterrey → ChihuahuaPreparadosPacíficoCumple0.0Falla mecánica3.9$145,000VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 794 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003103/04/2026CDMX → VeracruzLácteosPacíficoCumple0.0Temperatura9.6$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,150 kmOcupación: 89.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005903/04/2026Querétaro → ChihuahuaCárnicosPacíficoCumple0.0Sin incidente4.6$0VerUnidad: U-21Tipo de ruta: EstándarTránsito: 7 hDistancia: 1,026 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000404/04/2026Puebla → TijuanaCárnicosSuresteCumple0.0Falla mecánica4.3$0VerUnidad: U-04Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 931 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006004/04/2026León → TijuanaBerriesSuresteCumple0.0Sin incidente5.0$0VerUnidad: U-22Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 1,163 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000505/04/2026Querétaro → CancúnBerriesNorteCumple0.0Falla mecánica4.6$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,068 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-006105/04/2026CDMX → CancúnLácteosNorteCumple0.0Sin incidente5.3$0VerUnidad: U-23Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 1,300 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000606/04/2026León → HermosilloLácteosCentroCumple0.0Falla mecánica5.0$0VerUnidad: U-06Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 1,205 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003406/04/2026Puebla → TolucaCárnicosCentroCumple0.0Temperatura11.4$0VerUnidad: U-34Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 2,561 kmOcupación: 88.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006206/04/2026Guadalajara → HermosilloCongeladosCentroCumple0.0Sin incidente5.7$52,600VerUnidad: U-24Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,437 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000707/04/2026CDMX → VeracruzCongeladosPacíficoCumple0.0Falla mecánica5.3$0VerUnidad: U-07Tipo de ruta: PrioritariaTránsito: 12 hDistancia: 1,342 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10"
+        ],
+        "scope": "240 de 240 embarques · Todos los filtros · Periodo seleccionado: 01/04/2026–28/06/2026",
+        "tableCount": "240 embarques en la selección",
+        "trend": [
+          "Abril80 / 80100.0%",
+          "Mayo80 / 80100.0%",
+          "Junio24 / 8030.0%"
+        ]
+      }
+    },
+    {
+      "case": 3,
+      "filters": {
+        "origen": "CDMX",
+        "transportista": "Centro"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [],
+          "incidents": [],
+          "segments": []
+        },
+        "empty": true,
+        "facts": "Sin embarques en la selección; no hay hechos que resumir.",
+        "hypotheses": "Sin datos para formular hipótesis sobre esta selección.",
+        "kpis": {
+          "brecha": "— pp",
+          "excursiones": "0",
+          "incidentes": "0",
+          "reclamaciones": "$0 MXN",
+          "retraso": "— min",
+          "satisfaccion": "— /10",
+          "sla": "— %",
+          "total": "0"
+        },
+        "next": "Restablece los filtros o elige otra combinación antes de definir un piloto.",
+        "page": "0 páginas",
+        "rows": [
+          "Sin resultados para la selección."
+        ],
+        "scope": "0 de 240 embarques · Origen: CDMX · Transportista: Centro",
+        "tableCount": "0 embarques en la selección",
+        "trend": []
+      }
+    },
+    {
+      "case": 4,
+      "filters": {
+        "sla_entrega": "No cumple"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$6,500",
+              "meta": "MXN · n = 11 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$4,399",
+              "meta": "MXN · n = 11 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 12 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 11 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 11 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [],
+          "segments": [
+            {
+              "amount": "0.0%",
+              "meta": "0 cumplen / n = 12",
+              "name": "Berries"
+            },
+            {
+              "amount": "0.0%",
+              "meta": "0 cumplen / n = 11",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "0.0%",
+              "meta": "0 cumplen / n = 11",
+              "name": "Congelados"
+            },
+            {
+              "amount": "0.0%",
+              "meta": "0 cumplen / n = 11",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "0.0%",
+              "meta": "0 cumplen / n = 11",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 0/56 cumplen (0.0%); 90.0 pp por debajo de la meta de 90%. Junio registra 0.0% (0/56).Registro: 0 incidentes; 56 de 56 tardíos figuran “Sin incidente”. 0 excursiones >8 °C. Esto no identifica causas.Monto: $10,899 MXN. Preparados concentra $6,500 (59.6%).",
+        "hypotheses": "Registro incompleto: los 56 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-90.0 pp",
+          "excursiones": "0",
+          "incidentes": "0",
+          "reclamaciones": "$10,899 MXN",
+          "retraso": "51.8 min",
+          "satisfaccion": "8.5 /10",
+          "sla": "0.0 %",
+          "total": "56"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (0.0% SLA; n=56) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 3",
+        "rows": [
+          "LF-019701/06/2026Querétaro → CancúnCongeladosNorteNo cumple64.0Sin incidente5.7$0VerUnidad: U-07Tipo de ruta: EstándarTránsito: 12 hDistancia: 2,572 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-022501/06/2026Monterrey → MéridaBerriesNorteNo cumple45.0Sin incidente6.0$0VerUnidad: U-35Tipo de ruta: ConsolidadaTránsito: 21 hDistancia: 1,448 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-019802/06/2026León → HermosilloPreparadosCentroNo cumple26.0Sin incidente6.0$6,500VerUnidad: U-08Tipo de ruta: ConsolidadaTránsito: 13 hDistancia: 2,709 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-022602/06/2026Puebla → TolucaLácteosCentroNo cumple62.0Sin incidente3.2$0VerUnidad: U-36Tipo de ruta: PrioritariaTránsito: 22 hDistancia: 1,585 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-019903/06/2026CDMX → VeracruzCárnicosPacíficoNo cumple43.0Sin incidente3.2$0VerUnidad: U-09Tipo de ruta: PrioritariaTránsito: 14 hDistancia: 2,846 kmOcupación: 84.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-022703/06/2026Querétaro → ChihuahuaCongeladosPacíficoNo cumple79.0Sin incidente3.6$0VerUnidad: U-37Tipo de ruta: EstándarTránsito: 23 hDistancia: 1,722 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-020004/06/2026Guadalajara → San Luis PotosíBerriesSuresteNo cumple60.0Sin incidente3.6$0VerUnidad: U-10Tipo de ruta: EstándarTránsito: 15 hDistancia: 2,983 kmOcupación: 95.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-022804/06/2026León → TijuanaPreparadosSuresteNo cumple41.0Sin incidente3.9$0VerUnidad: U-38Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 1,859 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-020105/06/2026Monterrey → MéridaLácteosNorteNo cumple77.0Sin incidente3.9$0VerUnidad: U-11Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 640 kmOcupación: 89.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-022905/06/2026CDMX → CancúnCárnicosNorteNo cumple58.0Sin incidente4.3$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 1,996 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-020206/06/2026Puebla → TolucaCongeladosCentroNo cumple39.0Sin incidente4.3$0VerUnidad: U-12Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 777 kmOcupación: 83.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-023006/06/2026Guadalajara → HermosilloBerriesCentroNo cumple75.0Sin incidente4.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 2,133 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-020307/06/2026Querétaro → ChihuahuaPreparadosPacíficoNo cumple56.0Sin incidente4.6$0VerUnidad: U-13Tipo de ruta: EstándarTránsito: 18 hDistancia: 914 kmOcupación: 94.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-023107/06/2026Monterrey → VeracruzLácteosPacíficoNo cumple37.0Sin incidente5.0$0VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 2,270 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-020408/06/2026León → TijuanaCárnicosSuresteNo cumple73.0Sin incidente5.0$0VerUnidad: U-14Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 1,051 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-023208/06/2026Puebla → San Luis PotosíCongeladosSuresteNo cumple54.0Sin incidente5.3$0VerUnidad: U-04Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 2,407 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-020509/06/2026CDMX → CancúnBerriesNorteNo cumple35.0Sin incidente5.3$0VerUnidad: U-15Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 1,188 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-023309/06/2026Querétaro → MéridaPreparadosNorteNo cumple71.0Sin incidente5.7$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 2,544 kmOcupación: 84.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-020610/06/2026Guadalajara → HermosilloLácteosCentroNo cumple52.0Sin incidente5.7$0VerUnidad: U-16Tipo de ruta: EstándarTránsito: 21 hDistancia: 1,325 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-023410/06/2026León → TolucaCárnicosCentroNo cumple33.0Sin incidente6.0$0VerUnidad: U-06Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 2,681 kmOcupación: 95.0%Excursión >8 °C: NoSatisfacción: 9.0/10"
+        ],
+        "scope": "56 de 240 embarques · SLA: No cumple · Periodo seleccionado: 01/06/2026–28/06/2026",
+        "tableCount": "56 embarques en la selección",
+        "trend": [
+          "Junio0 / 560.0%"
+        ]
+      }
+    },
+    {
+      "case": 5,
+      "filters": {
+        "tipo_incidente": "Temperatura"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$92,300",
+              "meta": "MXN · n = 2 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 2 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 2 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 1 embarques",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 2 embarques",
+              "name": "Preparados"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "9",
+              "meta": "100.0% de 9 embarques",
+              "name": "Temperatura"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "100.0%",
+              "meta": "2 cumplen / n = 2",
+              "name": "Berries"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "2 cumplen / n = 2",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "2 cumplen / n = 2",
+              "name": "Congelados"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "1 cumplen / n = 1",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "100.0%",
+              "meta": "2 cumplen / n = 2",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 9/9 cumplen (100.0%); 10.0 pp sobre la meta de 90%. Abril registra 100.0% (9/9).Registro: 9 incidentes; 0 de 0 tardíos figuran “Sin incidente”. 9 excursiones >8 °C. Esto no identifica causas.Monto: $92,300 MXN. Berries concentra $92,300 (100.0%).",
+        "hypotheses": "Registro incompleto: la ausencia de tardíos sin clasificar en este corte no descarta problemas de registro en otros segmentos. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Berries podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "+10.0 pp",
+          "excursiones": "9",
+          "incidentes": "9",
+          "reclamaciones": "$92,300 MXN",
+          "retraso": "— min",
+          "satisfaccion": "8.4 /10",
+          "sla": "100.0 %",
+          "total": "9"
+        },
+        "next": "Propuesta: usar Abril como referencia del corte (100.0% SLA; n=9) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 1",
+        "rows": [
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-003002/04/2026León → HermosilloBerriesCentroCumple0.0Temperatura9.0$0VerUnidad: U-30Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 2,013 kmOcupación: 95.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-003103/04/2026CDMX → VeracruzLácteosPacíficoCumple0.0Temperatura9.6$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,150 kmOcupación: 89.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-003406/04/2026Puebla → TolucaCárnicosCentroCumple0.0Temperatura11.4$0VerUnidad: U-34Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 2,561 kmOcupación: 88.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-002727/04/2026Monterrey → ChihuahuaCongeladosPacíficoCumple0.0Temperatura11.4$0VerUnidad: U-27Tipo de ruta: ConsolidadaTránsito: 13 hDistancia: 1,602 kmOcupación: 96.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-002828/04/2026Puebla → TijuanaPreparadosSuresteCumple0.0Temperatura12.0$0VerUnidad: U-28Tipo de ruta: PrioritariaTránsito: 14 hDistancia: 1,739 kmOcupación: 90.0%Excursión >8 °C: SíSatisfacción: 9.0/10"
+        ],
+        "scope": "9 de 240 embarques · Incidente: Temperatura · Periodo seleccionado: 01/04/2026–28/04/2026",
+        "tableCount": "9 embarques en la selección",
+        "trend": [
+          "Abril9 / 9100.0%"
+        ]
+      }
+    },
+    {
+      "case": 6,
+      "filters": {
+        "destino": "Mérida"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$84,900",
+              "meta": "MXN · n = 6 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 6 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 6 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 6 embarques",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "$0",
+              "meta": "MXN · n = 6 embarques",
+              "name": "Preparados"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "2",
+              "meta": "6.7% de 30 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "2",
+              "meta": "6.7% de 30 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "1",
+              "meta": "3.3% de 30 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "1",
+              "meta": "3.3% de 30 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "1",
+              "meta": "3.3% de 30 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "66.7%",
+              "meta": "4 cumplen / n = 6",
+              "name": "Berries"
+            },
+            {
+              "amount": "66.7%",
+              "meta": "4 cumplen / n = 6",
+              "name": "Preparados"
+            },
+            {
+              "amount": "83.3%",
+              "meta": "5 cumplen / n = 6",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "83.3%",
+              "meta": "5 cumplen / n = 6",
+              "name": "Congelados"
+            },
+            {
+              "amount": "83.3%",
+              "meta": "5 cumplen / n = 6",
+              "name": "Lácteos"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 23/30 cumplen (76.7%); 13.3 pp por debajo de la meta de 90%. Junio registra 30.0% (3/10).Registro: 7 incidentes; 7 de 7 tardíos figuran “Sin incidente”. 1 excursiones >8 °C. Esto no identifica causas.Monto: $84,900 MXN. Cárnicos concentra $84,900 (100.0%).",
+        "hypotheses": "Registro incompleto: los 7 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Cárnicos podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-13.3 pp",
+          "excursiones": "1",
+          "incidentes": "7",
+          "reclamaciones": "$84,900 MXN",
+          "retraso": "55.9 min",
+          "satisfaccion": "8.0 /10",
+          "sla": "76.7 %",
+          "total": "30"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (30.0% SLA; n=10) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 2",
+        "rows": [
+          "LF-000101/04/2026CDMX → MéridaLácteosNorteCumple0.0Falla mecánica3.2$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 520 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-005701/04/2026Monterrey → MéridaCongeladosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-19Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 752 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-000909/04/2026Monterrey → MéridaCárnicosNorteCumple0.0Falla mecánica6.0$0VerUnidad: U-09Tipo de ruta: ConsolidadaTránsito: 14 hDistancia: 1,616 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-006509/04/2026Querétaro → MéridaBerriesNorteCumple0.0Sin incidente3.6$0VerUnidad: U-27Tipo de ruta: EstándarTránsito: 13 hDistancia: 1,848 kmOcupación: 89.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-004113/04/2026Querétaro → MéridaLácteosNorteCumple0.0Documentación4.6$0VerUnidad: U-03Tipo de ruta: EstándarTránsito: 8 hDistancia: 1,040 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-001717/04/2026Querétaro → MéridaCongeladosNorteCumple0.0Ventana de entrega5.7$0VerUnidad: U-17Tipo de ruta: EstándarTránsito: 22 hDistancia: 2,712 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-007317/04/2026CDMX → MéridaPreparadosNorteCumple0.0Sin incidente3.2$0VerUnidad: U-35Tipo de ruta: PrioritariaTránsito: 21 hDistancia: 2,944 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-004921/04/2026CDMX → MéridaCárnicosNorteCumple0.0Tráfico4.3$74,500VerUnidad: U-11Tipo de ruta: PrioritariaTránsito: 16 hDistancia: 2,136 kmOcupación: 83.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002525/04/2026CDMX → MéridaBerriesNorteCumple0.0Ventana de entrega5.3$0VerUnidad: U-25Tipo de ruta: PrioritariaTránsito: 11 hDistancia: 1,328 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-011301/05/2026Querétaro → MéridaPreparadosNorteCumple0.0Sin incidente4.6$0VerUnidad: U-37Tipo de ruta: EstándarTránsito: 23 hDistancia: 984 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-008905/05/2026Querétaro → MéridaCárnicosNorteCumple0.0Sin incidente5.7$0VerUnidad: U-13Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,656 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-014505/05/2026CDMX → MéridaBerriesNorteCumple0.0Sin incidente3.2$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,888 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-012109/05/2026CDMX → MéridaLácteosNorteCumple0.0Sin incidente4.3$0VerUnidad: U-07Tipo de ruta: PrioritariaTránsito: 12 hDistancia: 2,080 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-009713/05/2026CDMX → MéridaCongeladosNorteCumple0.0Sin incidente5.3$0VerUnidad: U-21Tipo de ruta: PrioritariaTránsito: 7 hDistancia: 1,272 kmOcupación: 84.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-015313/05/2026Monterrey → MéridaPreparadosNorteCumple0.0Sin incidente6.0$0VerUnidad: U-01Tipo de ruta: ConsolidadaTránsito: 6 hDistancia: 1,504 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-012917/05/2026Monterrey → MéridaCárnicosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-15Tipo de ruta: ConsolidadaTránsito: 20 hDistancia: 696 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-010521/05/2026Monterrey → MéridaBerriesNorteCumple0.0Sin incidente5.0$0VerUnidad: U-29Tipo de ruta: ConsolidadaTránsito: 15 hDistancia: 2,368 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-008125/05/2026Monterrey → MéridaLácteosNorteCumple0.0Sin incidente6.0$0VerUnidad: U-05Tipo de ruta: ConsolidadaTránsito: 10 hDistancia: 1,560 kmOcupación: 95.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-013725/05/2026Querétaro → MéridaCongeladosNorteCumple0.0Sin incidente3.6$0VerUnidad: U-23Tipo de ruta: EstándarTránsito: 9 hDistancia: 1,792 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10"
+        ],
+        "scope": "30 de 240 embarques · Destino: Mérida · Periodo seleccionado: 01/04/2026–25/06/2026",
+        "tableCount": "30 embarques en la selección",
+        "trend": [
+          "Abril10 / 10100.0%",
+          "Mayo10 / 10100.0%",
+          "Junio3 / 1030.0%"
+        ]
+      }
+    },
+    {
+      "case": 7,
+      "filters": {
+        "tipo_ruta": "Estándar"
+      },
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$132,500",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$123,149",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$119,400",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$52,600",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$16,100",
+              "meta": "MXN · n = 16 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "5",
+              "meta": "6.3% de 80 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "4",
+              "meta": "5.0% de 80 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "3",
+              "meta": "3.8% de 80 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "3",
+              "meta": "3.8% de 80 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "2",
+              "meta": "2.5% de 80 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "75.0%",
+              "meta": "12 cumplen / n = 16",
+              "name": "Berries"
+            },
+            {
+              "amount": "75.0%",
+              "meta": "12 cumplen / n = 16",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "75.0%",
+              "meta": "12 cumplen / n = 16",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "75.0%",
+              "meta": "12 cumplen / n = 16",
+              "name": "Preparados"
+            },
+            {
+              "amount": "81.3%",
+              "meta": "13 cumplen / n = 16",
+              "name": "Congelados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 61/80 cumplen (76.3%); 13.8 pp por debajo de la meta de 90%. Junio registra 29.6% (8/27).Registro: 17 incidentes; 19 de 19 tardíos figuran “Sin incidente”. 3 excursiones >8 °C. Esto no identifica causas.Monto: $443,749 MXN. Preparados concentra $132,500 (29.9%).",
+        "hypotheses": "Registro incompleto: los 19 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-13.8 pp",
+          "excursiones": "3",
+          "incidentes": "17",
+          "reclamaciones": "$443,749 MXN",
+          "retraso": "55.6 min",
+          "satisfaccion": "8.5 /10",
+          "sla": "76.3 %",
+          "total": "80"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (29.6% SLA; n=27) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 4",
+        "rows": [
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-000202/04/2026Guadalajara → TolucaCongeladosCentroCumple0.0Falla mecánica3.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 657 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-005903/04/2026Querétaro → ChihuahuaCárnicosPacíficoCumple0.0Sin incidente4.6$0VerUnidad: U-21Tipo de ruta: EstándarTránsito: 7 hDistancia: 1,026 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-000505/04/2026Querétaro → CancúnBerriesNorteCumple0.0Falla mecánica4.6$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,068 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-006206/04/2026Guadalajara → HermosilloCongeladosCentroCumple0.0Sin incidente5.7$52,600VerUnidad: U-24Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,437 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-000808/04/2026Guadalajara → San Luis PotosíPreparadosSuresteCumple0.0Falla mecánica5.7$132,500VerUnidad: U-08Tipo de ruta: EstándarTránsito: 13 hDistancia: 1,479 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-006509/04/2026Querétaro → MéridaBerriesNorteCumple0.0Sin incidente3.6$0VerUnidad: U-27Tipo de ruta: EstándarTránsito: 13 hDistancia: 1,848 kmOcupación: 89.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003810/04/2026Guadalajara → HermosilloPreparadosCentroCumple0.0Documentación3.6$0VerUnidad: U-38Tipo de ruta: EstándarTránsito: 24 hDistancia: 629 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-001111/04/2026Querétaro → ChihuahuaLácteosPacíficoCumple0.0Falla mecánica3.6$0VerUnidad: U-11Tipo de ruta: EstándarTránsito: 16 hDistancia: 1,890 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-006812/04/2026Guadalajara → TijuanaPreparadosSuresteCumple0.0Sin incidente4.6$0VerUnidad: U-30Tipo de ruta: EstándarTránsito: 16 hDistancia: 2,259 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-004113/04/2026Querétaro → MéridaLácteosNorteCumple0.0Documentación4.6$0VerUnidad: U-03Tipo de ruta: EstándarTránsito: 8 hDistancia: 1,040 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-001414/04/2026Guadalajara → HermosilloCárnicosCentroCumple0.0Falla mecánica4.6$118,750VerUnidad: U-14Tipo de ruta: EstándarTránsito: 19 hDistancia: 2,301 kmOcupación: 89.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-007115/04/2026Querétaro → VeracruzLácteosPacíficoCumple0.0Sin incidente5.7$0VerUnidad: U-33Tipo de ruta: EstándarTránsito: 19 hDistancia: 2,670 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-004416/04/2026Guadalajara → TijuanaCárnicosSuresteCumple0.0Documentación5.7$0VerUnidad: U-06Tipo de ruta: EstándarTránsito: 11 hDistancia: 1,451 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-001717/04/2026Querétaro → MéridaCongeladosNorteCumple0.0Ventana de entrega5.7$0VerUnidad: U-17Tipo de ruta: EstándarTránsito: 22 hDistancia: 2,712 kmOcupación: 88.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-007418/04/2026Guadalajara → TolucaCárnicosCentroCumple0.0Sin incidente3.6$0VerUnidad: U-36Tipo de ruta: EstándarTránsito: 22 hDistancia: 601 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-004719/04/2026Querétaro → VeracruzCongeladosPacíficoCumple0.0Tráfico3.6$0VerUnidad: U-09Tipo de ruta: EstándarTránsito: 14 hDistancia: 1,862 kmOcupación: 95.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002020/04/2026Guadalajara → TijuanaBerriesSuresteCumple0.0Ventana de entrega3.6$0VerUnidad: U-20Tipo de ruta: EstándarTránsito: 6 hDistancia: 643 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 9.0/10"
+        ],
+        "scope": "80 de 240 embarques · Tipo de ruta: Estándar · Periodo seleccionado: 01/04/2026–28/06/2026",
+        "tableCount": "80 embarques en la selección",
+        "trend": [
+          "Abril27 / 27100.0%",
+          "Mayo26 / 26100.0%",
+          "Junio8 / 2729.6%"
+        ]
+      }
+    },
+    {
+      "case": 0,
+      "filters": {},
+      "status": "PASS",
+      "snapshot": {
+        "bars": {
+          "claims": [
+            {
+              "amount": "$359,900",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Preparados"
+            },
+            {
+              "amount": "$208,049",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "$179,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Congelados"
+            },
+            {
+              "amount": "$119,400",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Berries"
+            },
+            {
+              "amount": "$16,100",
+              "meta": "MXN · n = 48 embarques",
+              "name": "Lácteos"
+            }
+          ],
+          "incidents": [
+            {
+              "amount": "14",
+              "meta": "5.8% de 240 embarques",
+              "name": "Falla mecánica"
+            },
+            {
+              "amount": "12",
+              "meta": "5.0% de 240 embarques",
+              "name": "Ventana de entrega"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Documentación"
+            },
+            {
+              "amount": "9",
+              "meta": "3.8% de 240 embarques",
+              "name": "Temperatura"
+            },
+            {
+              "amount": "8",
+              "meta": "3.3% de 240 embarques",
+              "name": "Tráfico"
+            }
+          ],
+          "segments": [
+            {
+              "amount": "75.0%",
+              "meta": "36 cumplen / n = 48",
+              "name": "Berries"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Cárnicos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Congelados"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Lácteos"
+            },
+            {
+              "amount": "77.1%",
+              "meta": "37 cumplen / n = 48",
+              "name": "Preparados"
+            }
+          ]
+        },
+        "empty": false,
+        "facts": "Servicio: 184/240 cumplen (76.7%); 13.3 pp por debajo de la meta de 90%. Junio registra 30.0% (24/80).Registro: 52 incidentes; 56 de 56 tardíos figuran “Sin incidente”. 9 excursiones >8 °C. Esto no identifica causas.Monto: $882,549 MXN. Preparados concentra $359,900 (40.8%).",
+        "hypotheses": "Registro incompleto: los 56 tardíos sin incidente clasificado podrían reflejar una cobertura insuficiente del registro. Validar con bitácoras y tiempos por etapa.Severidad o exposición: la concentración en Preparados podría relacionarse con el valor de la carga o con pocos casos de alto monto. Solicitar valor transportado, motivo y estado de cada reclamación.Explicaciones posibles; no son causas demostradas.",
+        "kpis": {
+          "brecha": "-13.3 pp",
+          "excursiones": "9",
+          "incidentes": "52",
+          "reclamaciones": "$882,549 MXN",
+          "retraso": "51.8 min",
+          "satisfaccion": "8.5 /10",
+          "sla": "76.7 %",
+          "total": "240"
+        },
+        "next": "Propuesta: usar Junio como referencia del corte (30.0% SLA; n=80) y seleccionar embarques futuros comparables. No ejecutar un piloto sobre datos sintéticos.Días 1–5: responsable propuesto: jefatura de operaciones. Auditar tardíos, conciliar los $100 y acordar segmento, costo e intervención según causa validada.Días 6–25: probar la intervención en un grupo y mantener un grupo comparable de referencia; registrar puntualidad, etapas y motivos.Días 26–30: comparar SLA y su cambio frente al grupo de referencia. Meta propuesta: ≥90%, sin aumentar excursiones por 100 embarques ni reclamaciones por embarque. Informar tamaño de muestra e incertidumbre; ampliar si la evidencia es insuficiente.",
+        "page": "Página 1 de 12",
+        "rows": [
+          "LF-000101/04/2026CDMX → MéridaLácteosNorteCumple0.0Falla mecánica3.2$0VerUnidad: U-01Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 520 kmOcupación: 82.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-002901/04/2026Querétaro → CancúnCárnicosNorteCumple0.0Temperatura8.4$0VerUnidad: U-29Tipo de ruta: EstándarTránsito: 15 hDistancia: 1,876 kmOcupación: 84.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005701/04/2026Monterrey → MéridaCongeladosNorteCumple0.0Sin incidente3.9$0VerUnidad: U-19Tipo de ruta: ConsolidadaTránsito: 24 hDistancia: 752 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000202/04/2026Guadalajara → TolucaCongeladosCentroCumple0.0Falla mecánica3.6$0VerUnidad: U-02Tipo de ruta: EstándarTránsito: 7 hDistancia: 657 kmOcupación: 93.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003002/04/2026León → HermosilloBerriesCentroCumple0.0Temperatura9.0$0VerUnidad: U-30Tipo de ruta: ConsolidadaTránsito: 16 hDistancia: 2,013 kmOcupación: 95.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-005802/04/2026Puebla → TolucaPreparadosCentroCumple0.0Sin incidente4.3$0VerUnidad: U-20Tipo de ruta: PrioritariaTránsito: 6 hDistancia: 889 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000303/04/2026Monterrey → ChihuahuaPreparadosPacíficoCumple0.0Falla mecánica3.9$145,000VerUnidad: U-03Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 794 kmOcupación: 87.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003103/04/2026CDMX → VeracruzLácteosPacíficoCumple0.0Temperatura9.6$0VerUnidad: U-31Tipo de ruta: PrioritariaTránsito: 17 hDistancia: 2,150 kmOcupación: 89.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-005903/04/2026Querétaro → ChihuahuaCárnicosPacíficoCumple0.0Sin incidente4.6$0VerUnidad: U-21Tipo de ruta: EstándarTránsito: 7 hDistancia: 1,026 kmOcupación: 91.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000404/04/2026Puebla → TijuanaCárnicosSuresteCumple0.0Falla mecánica4.3$0VerUnidad: U-04Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 931 kmOcupación: 98.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003204/04/2026Guadalajara → San Luis PotosíCongeladosSuresteCumple0.0Temperatura10.2$0VerUnidad: U-32Tipo de ruta: EstándarTránsito: 18 hDistancia: 2,287 kmOcupación: 83.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006004/04/2026León → TijuanaBerriesSuresteCumple0.0Sin incidente5.0$0VerUnidad: U-22Tipo de ruta: ConsolidadaTránsito: 8 hDistancia: 1,163 kmOcupación: 85.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000505/04/2026Querétaro → CancúnBerriesNorteCumple0.0Falla mecánica4.6$0VerUnidad: U-05Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,068 kmOcupación: 92.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003305/04/2026Monterrey → MéridaPreparadosNorteCumple0.0Temperatura10.8$0VerUnidad: U-33Tipo de ruta: ConsolidadaTránsito: 19 hDistancia: 2,424 kmOcupación: 94.0%Excursión >8 °C: SíSatisfacción: 8.0/10",
+          "LF-006105/04/2026CDMX → CancúnLácteosNorteCumple0.0Sin incidente5.3$0VerUnidad: U-23Tipo de ruta: PrioritariaTránsito: 9 hDistancia: 1,300 kmOcupación: 96.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-000606/04/2026León → HermosilloLácteosCentroCumple0.0Falla mecánica5.0$0VerUnidad: U-06Tipo de ruta: ConsolidadaTránsito: 11 hDistancia: 1,205 kmOcupación: 86.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-003406/04/2026Puebla → TolucaCárnicosCentroCumple0.0Temperatura11.4$0VerUnidad: U-34Tipo de ruta: PrioritariaTránsito: 20 hDistancia: 2,561 kmOcupación: 88.0%Excursión >8 °C: SíSatisfacción: 9.0/10",
+          "LF-006206/04/2026Guadalajara → HermosilloCongeladosCentroCumple0.0Sin incidente5.7$52,600VerUnidad: U-24Tipo de ruta: EstándarTránsito: 10 hDistancia: 1,437 kmOcupación: 90.0%Excursión >8 °C: NoSatisfacción: 9.0/10",
+          "LF-000707/04/2026CDMX → VeracruzCongeladosPacíficoCumple0.0Falla mecánica5.3$0VerUnidad: U-07Tipo de ruta: PrioritariaTránsito: 12 hDistancia: 1,342 kmOcupación: 97.0%Excursión >8 °C: NoSatisfacción: 8.0/10",
+          "LF-003507/04/2026Querétaro → ChihuahuaBerriesPacíficoCumple0.0Temperatura12.0$92,300VerUnidad: U-35Tipo de ruta: EstándarTránsito: 21 hDistancia: 2,698 kmOcupación: 82.0%Excursión >8 °C: SíSatisfacción: 8.0/10"
+        ],
+        "scope": "240 de 240 embarques · Todos los filtros · Periodo seleccionado: 01/04/2026–28/06/2026",
+        "tableCount": "240 embarques en la selección",
+        "trend": [
+          "Abril80 / 80100.0%",
+          "Mayo80 / 80100.0%",
+          "Junio24 / 8030.0%"
+        ]
+      }
+    }
+  ]
+}
