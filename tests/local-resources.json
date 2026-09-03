@@ -1,0 +1,55 @@
+{
+  "url": "http://127.0.0.1:8765/",
+  "status": "PASS",
+  "resources": [
+    {
+      "target": "./",
+      "status": 200,
+      "bytes": 7899,
+      "sha256": "d0799fa8f96a6c6f893e57b38594e126851d4f2dc76bd1dfa418103688775f8f"
+    },
+    {
+      "target": "./README.md",
+      "status": 200,
+      "bytes": 7699,
+      "sha256": "aac35c13ee570ebe31cedb706496e52382427b832f0eafc1139d737db043a24f"
+    },
+    {
+      "target": "./REPORTE_VALIDACION.md",
+      "status": 200,
+      "bytes": 11166,
+      "sha256": "f0ddcf0dbeebfbec16dfed496a5e03b1fe2fd6020f9bf396b25c14cc3689f30a"
+    },
+    {
+      "target": "./app.js",
+      "status": 200,
+      "bytes": 11635,
+      "sha256": "8018723ccbe2ec51c1e8cea5aa4f80c15dc2886b01f66c4f486e398feff6f870"
+    },
+    {
+      "target": "./data.js",
+      "status": 200,
+      "bytes": 101716,
+      "sha256": "b6a21d01b4429db28ed7ddb98c85988c19b14a2c7b188b5d50a861d9cffdf0e9"
+    },
+    {
+      "target": "./index.html",
+      "status": 200,
+      "bytes": 7899,
+      "sha256": "d0799fa8f96a6c6f893e57b38594e126851d4f2dc76bd1dfa418103688775f8f"
+    },
+    {
+      "target": "./metrics.js",
+      "status": 200,
+      "bytes": 1429,
+      "sha256": "88b8fdb5a0adb326bf86052f7005148ac798b514806bf65c15955144e4c3ec70"
+    },
+    {
+      "target": "./styles.css",
+      "status": 200,
+      "bytes": 7433,
+      "sha256": "c1952a028f01b95c34c1f837f4a991b27075cdb1919c2060920a0630a01ce7d1"
+    }
+  ],
+  "scope": "HTTP y coincidencia de contenido; no sustituye pruebas de interacción"
+}

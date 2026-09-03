@@ -1,0 +1,157 @@
+{
+  "source": "Datos_sinteticos_LogiFresh_dashboard.xlsx",
+  "sha256": "11fa6c3dbc1cab144af5968f2933f578ce457b54b15d11fc54c6dec9afa0bd6c",
+  "rows": 240,
+  "columns": 18,
+  "unique_ids": 240,
+  "duplicate_rows": 0,
+  "missing": {
+    "id_embarque": 0,
+    "fecha_salida": 0,
+    "unidad": 0,
+    "origen": 0,
+    "destino": 0,
+    "producto": 0,
+    "transportista": 0,
+    "horas_transito": 0,
+    "sla_entrega": 0,
+    "retraso_min": 0,
+    "tipo_incidente": 0,
+    "excursion_temp_mayor_8c": 0,
+    "temperatura_max_c": 0,
+    "reclamacion_mxn": 0,
+    "satisfaccion_1_10": 0,
+    "distancia_km": 0,
+    "ocupacion_unidad": 0,
+    "tipo_ruta": 0
+  },
+  "period": [
+    "2026-04-01",
+    "2026-06-28"
+  ],
+  "numeric_ranges": {
+    "horas_transito": [
+      6,
+      24
+    ],
+    "retraso_min": [
+      0,
+      79
+    ],
+    "temperatura_max_c": [
+      3.2,
+      12
+    ],
+    "reclamacion_mxn": [
+      0,
+      145000
+    ],
+    "satisfaccion_1_10": [
+      8,
+      9
+    ],
+    "distancia_km": [
+      520,
+      2997
+    ],
+    "ocupacion_unidad": [
+      0.82,
+      0.98
+    ]
+  },
+  "sla_delay_mismatches": 0,
+  "temperature_mismatches": 0,
+  "incidents": {
+    "Falla mecánica": 14,
+    "Ventana de entrega": 12,
+    "Temperatura": 9,
+    "Documentación": 9,
+    "Tráfico": 8,
+    "Sin incidente": 188
+  },
+  "controls": {
+    "total": 240,
+    "cumple": 184,
+    "tardios": 56,
+    "sla": 76.66666666666667,
+    "brecha": -13.333333333333329,
+    "retraso": 51.8,
+    "incidentes": 52,
+    "excursiones": 9,
+    "reclamaciones": 882549,
+    "satisfaccion": 8.5
+  },
+  "claimed_control": 882649,
+  "xml_sum": 882549,
+  "dictionary_fields": [
+    "sla_entrega",
+    "retraso_min",
+    "tipo_incidente",
+    "excursion_temp_mayor_8c",
+    "reclamacion_mxn",
+    "satisfaccion_1_10",
+    "ocupacion_unidad"
+  ],
+  "claims_cells": [
+    {
+      "cell": "N4",
+      "amount": 145000
+    },
+    {
+      "cell": "N9",
+      "amount": 132500
+    },
+    {
+      "cell": "N15",
+      "amount": 118750
+    },
+    {
+      "cell": "N23",
+      "amount": 104400
+    },
+    {
+      "cell": "N36",
+      "amount": 92300
+    },
+    {
+      "cell": "N50",
+      "amount": 74500
+    },
+    {
+      "cell": "N63",
+      "amount": 52600
+    },
+    {
+      "cell": "N79",
+      "amount": 42100
+    },
+    {
+      "cell": "N94",
+      "amount": 33800
+    },
+    {
+      "cell": "N111",
+      "amount": 27100
+    },
+    {
+      "cell": "N128",
+      "amount": 22100
+    },
+    {
+      "cell": "N147",
+      "amount": 16100
+    },
+    {
+      "cell": "N170",
+      "amount": 10400
+    },
+    {
+      "cell": "N199",
+      "amount": 6500
+    },
+    {
+      "cell": "N225",
+      "amount": 4399
+    }
+  ]
+}

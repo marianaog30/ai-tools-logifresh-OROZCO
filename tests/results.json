@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "comparisons": 2740,
+  "oracle_cases": 8,
+  "filter_combinations": 97,
+  "claims_control": {
+    "guide": 882649,
+    "source": 882549,
+    "difference": -100,
+    "status": "DISCREPANCIA ACEPTADA POR LA USUARIA"
+  },
+  "browser_tests": "Ver REPORTE_VALIDACION.md; estas pruebas no sustituyen un navegador."
+}
