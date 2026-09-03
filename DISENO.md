@@ -35,3 +35,7 @@ La suma real es $882,549 MXN; el control exige $882,649 MXN. Confirmada tanto co
 ## Puerta de publicación
 
 Completar construcción, pruebas locales y documentación antes de solicitar aprobación. Crear el repositorio público, subir archivos y habilitar Pages únicamente tras autorización explícita. Las pruebas públicas y el commit desplegado solo se reportarán cuando puedan observarse; una previsualización local no satisface la entrega pública.
+
+## Autorización de publicación
+
+La usuaria aprobó explícitamente crear el repositorio público, subir el dashboard con sus datos sintéticos, documentación y pruebas, y activar GitHub Pages. El 2 de septiembre de 2026 se verificó la sesión marianaog30 y se creó el repositorio solicitado. Se seleccionó main y / (root), con HTTPS obligatorio.

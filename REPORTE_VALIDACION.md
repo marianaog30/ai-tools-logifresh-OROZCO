@@ -1,6 +1,6 @@
 # Reporte de validación — LogiFresh
 
-**Estado: validado localmente; publicación pendiente.** No se ha creado el repositorio público ni activado GitHub Pages. La aprobación de publicación y una sesión autenticada de GitHub siguen pendientes. No se declara una URL ni un commit desplegado inexistentes.
+**Estado: publicado y validado en GitHub Pages.** [URL pública](https://marianaog30.github.io/ai-tools-logifresh-OROZCO/) · [Repositorio](https://github.com/marianaog30/ai-tools-logifresh-OROZCO). Autorización explícita recibida y sesión de marianaog30 comprobada. Primera validación pública del código `75c8fdc50324651f3155d9dfdc5f3b7c9f02e7f6`; las revisiones posteriores integran evidencia y documentación sin modificar el dashboard.
 
 ## Fuente y procedimiento
 
@@ -8,7 +8,7 @@ Fuente exclusiva: `Datos_sinteticos_LogiFresh_dashboard.xlsx`, `Datos!A1:R241` y
 
 SHA-256 original: `11fa6c3dbc1cab144af5968f2933f578ce457b54b15d11fc54c6dec9afa0bd6c`.
 
-Secuencia: inventario y diccionario → perfil → reconciliación independiente → preguntas y diseño en `DISENO.md` → construcción → pruebas de motor y navegador → correcciones → documentación → aprobación → publicación y nueva verificación pública (últimas dos etapas pendientes).
+Secuencia: inventario y diccionario → perfil → reconciliación independiente → preguntas y diseño en `DISENO.md` → construcción → pruebas de motor y navegador → correcciones → documentación → aprobación → publicación y nueva verificación pública (publicación y pruebas públicas realizadas tras aprobación).
 
 El motor JavaScript se contrastó contra un oráculo calculado con Python desde el Excel. Se verificaron además los valores renderizados en el navegador, sin invocar las funciones internas del sitio como sustituto de interacción. Los selectores se operaron mediante los controles visibles. La vista previa autorizada está limitada a 127.0.0.1 y a la carpeta de este proyecto; no es un sitio público.
 
@@ -52,31 +52,31 @@ Dos vías independientes coinciden: suma de valores leídos de la hoja y suma co
 
 La usuaria respondió **“Sí”** a mostrar $882,549 y documentar la diferencia, sin modificar la fuente. Este permiso acepta el tratamiento del dato; **no es autorización de publicación**. No se añadió una reclamación ficticia ni se ajustó una fila para alcanzar el control. La causa exacta de la diferencia entre guía y fuente permanece desconocida.
 
-## Pruebas de interacción en navegador
+## Pruebas de interacción en navegador local y público
 
 En cada caso del oráculo se contrastaron los ocho KPIs, valores por categoría de las tres gráficas de barras, evolución mensual, número de filas mostradas, pertenencia de IDs al subconjunto y contexto de Hechos/Hipótesis/Próximo paso. Los paneles de interpretación cambian con los filtros; no se trata de textos generales que conserven las cifras originales.
 
 | Prueba | Esperado | Obtenido | Estado |
 |---|---|---|---|
-| Sin filtros | 240, SLA 76.7%, $882,549 | Coincide | PASS local |
-| Individual: abril | 80; SLA 100%; sin tardíos; 52 incidentes; 9 excursiones; $762,150; satisfacción 8.5 | Coincide; retraso “—” | PASS local |
-| Combinados: abril + Preparados | 16; SLA 100%; 10 incidentes; 2 excursiones; $319,600; satisfacción 8.5 | Coincide en KPIs, gráficas, interpretación y 16 filas | PASS local |
-| Restablecer | 240 y todos los controles originales | Coincide; página 1 | PASS local |
-| Sin resultados: CDMX + Centro | 0 filas; conteos y suma cero; tasas/promedios “—”; mensaje claro | Coincide en todos los componentes | PASS local |
-| SLA: No cumple | 56; SLA 0%; retraso 51.8; 0 incidentes; 0 excursiones; $10,899 | Coincide | PASS local |
-| Incidente: Temperatura | 9; SLA 100%; 9 excursiones; $92,300; satisfacción 8.4 | Coincide | PASS local |
-| Destino: Mérida | 30; SLA 76.7%; retraso 55.9; 7 incidentes; 1 excursión; $84,900; satisfacción 8.0 | Coincide | PASS local |
-| Tipo de ruta: Estándar | 80; SLA 76.3%; retraso 55.6; 17 incidentes; 3 excursiones; $443,749; satisfacción 8.5 | Coincide | PASS local |
-| Agrupar SLA por transportista | 4 grupos; 46/60 = 76.7% cada uno | Coincide | PASS local |
+| Sin filtros | 240, SLA 76.7%, $882,549 | Coincide | PASS local y público |
+| Individual: abril | 80; SLA 100%; sin tardíos; 52 incidentes; 9 excursiones; $762,150; satisfacción 8.5 | Coincide; retraso “—” | PASS local y público |
+| Combinados: abril + Preparados | 16; SLA 100%; 10 incidentes; 2 excursiones; $319,600; satisfacción 8.5 | Coincide en KPIs, gráficas, interpretación y 16 filas | PASS local y público |
+| Restablecer | 240 y todos los controles originales | Coincide; página 1 | PASS local y público |
+| Sin resultados: CDMX + Centro | 0 filas; conteos y suma cero; tasas/promedios “—”; mensaje claro | Coincide en todos los componentes | PASS local y público |
+| SLA: No cumple | 56; SLA 0%; retraso 51.8; 0 incidentes; 0 excursiones; $10,899 | Coincide | PASS local y público |
+| Incidente: Temperatura | 9; SLA 100%; 9 excursiones; $92,300; satisfacción 8.4 | Coincide | PASS local y público |
+| Destino: Mérida | 30; SLA 76.7%; retraso 55.9; 7 incidentes; 1 excursión; $84,900; satisfacción 8.0 | Coincide | PASS local y público |
+| Tipo de ruta: Estándar | 80; SLA 76.3%; retraso 55.6; 17 incidentes; 3 excursiones; $443,749; satisfacción 8.5 | Coincide | PASS local y público |
+| Agrupar SLA por transportista | 4 grupos; 46/60 = 76.7% cada uno | Coincide | PASS local y público |
 | Paginación | Siguiente → página 2; Anterior → página 1 | 2/12 y 1/12 | PASS local |
 | Teclado | Tab desde Mes lleva a Origen, foco visible | f-origen; contorno sólido visible | PASS local |
 | Etiquetas | 9 selectores con etiqueta asociada | 9/9 | PASS local |
 | Vista escritorio | Sin desbordamiento de página; tarjetas legibles | Verificado a 1280 px y 1440 px | PASS local |
-| Vista móvil | 390 px sin desbordamiento de página | ancho documento 390; tabla 1000 dentro de contenedor de 316 | PASS local |
-| Consola | Sin errores ni advertencias del sitio | 0 observados durante pruebas | PASS local |
+| Vista móvil | 390 px sin desbordamiento de página | ancho documento 390; tabla 1000 dentro de contenedor de 316 | PASS local y público |
+| Consola | Sin errores ni advertencias del sitio | 0 observados durante pruebas | PASS local y público |
 | Recursos y enlaces locales | HTTP 200 y contenido igual a archivos locales | 8 destinos correctos, incluidos README y reporte | PASS local |
-| URL pública y recursos | HTTPS sin autenticación, recursos correctos | Sin publicación | **PENDIENTE** |
-| Commit desplegado | Coincide con commit final del repositorio | Sin despliegue | **PENDIENTE** |
+| URL pública y recursos | HTTPS sin autenticación, recursos correctos | 8 destinos HTTP 200 y coincidencia byte a byte | PASS público |
+| Código desplegado | Código auditado en producción | `75c8fdc50324651f3155d9dfdc5f3b7c9f02e7f6`; despliegue #1 correcto | PASS; evidencia final en historial de Actions |
 
 ## Pruebas reproducibles y accesibilidad
 
@@ -86,7 +86,7 @@ Accesibilidad básica: idioma es-MX, encabezados semánticos, enlace de salto, c
 
 Contrastes calculados para los pares principales: texto/fondo 15.42:1; texto secundario/fondo 6.65:1; rojo/fondo 8.87:1; texto blanco/tarjeta SLA 13.17:1; nota/tarjeta SLA 10.42:1; texto/panel interpretativo 12.70:1. Todos superan 4.5:1 para texto normal en los pares revisados.
 
-Carga inicial: **130,112 bytes sin compresión** entre HTML, CSS, datos y los dos scripts de lógica. Cero referencias HTTP externas en estos recursos. No se infiere de este tamaño una latencia de red ni una puntuación de rendimiento: faltan mediciones desde la URL pública. Capturas y pruebas no se cargan al abrir el dashboard.
+Carga inicial: **130,112 bytes sin compresión** entre HTML, CSS, datos y los dos scripts de lógica. Cero referencias HTTP externas en estos recursos. No se infiere de este tamaño una latencia de red ni una puntuación de rendimiento: no se realizó una medición normalizada de rendimiento de red. Sí se comprobó la carga pública de los recursos. Capturas y pruebas no se cargan al abrir el dashboard.
 
 ## Evidencia visual
 
@@ -95,7 +95,7 @@ Carga inicial: **130,112 bytes sin compresión** entre HTML, CSS, datos y los do
 - `evidence/mobile.png`: encabezado y filtros a 390 px.
 - `evidence/mobile-kpis.png`: indicadores y comienzo de tendencia a 390 px.
 
-Son capturas **locales**; no acreditan GitHub Pages. La tabla de detalle limita el desplazamiento horizontal a su propio contenedor.
+Las cuatro capturas anteriores son **locales**. Las capturas `public-desktop.png`, `public-two-filters.png`, `public-mobile.png` y `public-mobile-kpis.png` se tomaron desde la URL de GitHub Pages y acreditan su revisión visual. La tabla de detalle limita el desplazamiento horizontal a su propio contenedor.
 
 ## Bitácora y correcciones
 
@@ -115,12 +115,25 @@ Ver `README.md` para tres hallazgos con acciones e indicadores, dos hipótesis y
 
 Antes de una decisión real faltan causas validadas, tiempos por etapa, condiciones externas, costo y viabilidad de intervención, valor de carga, exposición, duración térmica y estado de reclamaciones. La meta del piloto es propuesta, no resultado predicho.
 
-## Pendientes de publicación
+## Publicación, autorización y trazabilidad
 
-1. Autorización explícita para crear `ai-tools-logifresh-OROZCO` público, subir esta carpeta y activar Pages.
-2. Acceso autenticado a la cuenta de GitHub. El navegador disponible estaba sin sesión; no se encontró herramienta GitHub conectada ni CLI GitHub instalada.
-3. Crear repositorio sin sobrescribir proyectos existentes; registrar commit de contenido.
-4. Configurar Pages, esperar despliegue y comprobar la URL pública, recursos, filtros y móvil.
-5. Registrar URL del sitio, URL del repositorio y SHA desplegado; actualizar este reporte con evidencia pública.
+La usuaria aprobó crear el repositorio público, subir los datos sintéticos, código, documentación y pruebas, y activar GitHub Pages. Se utilizó la sesión autenticada de marianaog30; no se solicitaron ni copiaron contraseñas, tokens o cookies. No se modificaron repositorios existentes ni otros permisos de cuenta.
 
-**Criterio de cierre:** el trabajo no está terminado mientras la publicación, prueba pública y correspondencia de commit sigan pendientes.
+- Repositorio: [https://github.com/marianaog30/ai-tools-logifresh-OROZCO](https://github.com/marianaog30/ai-tools-logifresh-OROZCO).
+- Sitio: [https://marianaog30.github.io/ai-tools-logifresh-OROZCO/](https://marianaog30.github.io/ai-tools-logifresh-OROZCO/).
+- Fuente: `main`, raíz `/`; `.nojekyll` presente; HTTPS obligatorio.
+- Primer despliegue verificado: [ejecución #1](https://github.com/marianaog30/ai-tools-logifresh-OROZCO/actions/runs/33710266546), estado Success, 28 s, commit `75c8fdc50324651f3155d9dfdc5f3b7c9f02e7f6`.
+- La primera visita mostró 404 durante el despliegue inicial; después de su finalización la URL abrió y pasó la matriz pública. No se necesitó cambiar datos o rutas.
+- Pruebas públicas: comparación exacta de los ocho KPIs, cuatro gráficas, Hechos/Hipótesis/Próximo paso y filas de detalle con los resultados locales auditados, en los ocho casos del oráculo. Incluye restablecimiento repetido y estado vacío.
+- `tests/public-browser-results.json` conserva las salidas del navegador. `tests/public-resources.json` registra las respuestas HTTP y hashes de la primera publicación, antes de actualizar esta documentación.
+- Los commits de integración de evidencia conservan los hashes de `index.html`, `styles.css`, `data.js`, `metrics.js` y `app.js`. El commit final desplegado se identifica en la entrega final y en [Actions](https://github.com/marianaog30/ai-tools-logifresh-OROZCO/actions), evitando una autorreferencia imposible del SHA dentro de su propio commit.
+
+### Incidencias de prueba pública
+
+El comparador inicial de objetos del navegador detectó diferencias de prototipo entre contextos aunque los contenidos coincidían; se corrigió el instrumento para comparar la serialización exacta y se ejecutaron todos los casos. No fue un cambio de datos ni de aplicación.
+
+El flujo administrado de Pages mostró una advertencia de migración de Node 20 a Node 24 en `actions/upload-artifact@v4`; la ejecución terminó correctamente. El sitio entregado es estático y no ejecuta Node en el navegador. Este aviso de la infraestructura administrada no se presenta como error del dashboard.
+
+### Alcance de la conclusión
+
+El sitio está públicamente accesible y las pruebas de aceptación funcional pasaron, con **una excepción de datos conocida y aceptada**: el total real de reclamaciones es $882,549, no $882,649. No se afirma que el control original coincida literalmente. No se realizó auditoría completa con lector de pantalla ni evaluación causal de operaciones reales.

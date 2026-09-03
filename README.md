@@ -2,7 +2,7 @@
 
 Dashboard estático e interactivo para decidir qué investigar antes de proponer un piloto de mejora de 30 días. Datos exclusivamente sintéticos de abril–junio de 2026.
 
-**Estado:** construido localmente. Publicación en GitHub Pages pendiente de aprobación y acceso autenticado. No existe todavía una URL pública verificada. Repositorio propuesto: `ai-tools-logifresh-OROZCO`.
+**Estado:** publicado y comprobado en GitHub Pages. [Abrir dashboard](https://marianaog30.github.io/ai-tools-logifresh-OROZCO/) · [Repositorio público](https://github.com/marianaog30/ai-tools-logifresh-OROZCO) · [Reporte de validación](REPORTE_VALIDACION.md).
 
 ## Uso
 
@@ -67,6 +67,12 @@ Riesgos/datos faltantes: causa raíz validada, tiempos por etapa, condiciones ex
 
 Ejecutar `node tests/test_metrics.cjs` desde esta carpeta para repetir la auditoría numérica. Para volver a extraer, ejecutar `python3 tests/extract_validate.py /ruta/al/archivo.xlsx`; esto regenera datos y resultados esperados, por lo que debe acompañarse de revisión del perfil y controles. No regenerar con datos reales sin una autorización distinta y anonimización.
 
-## Publicación prevista
+## Publicación y verificación
 
-Crear el repositorio público solicitado después de la aprobación; subir únicamente esta carpeta; configurar GitHub Pages desde la rama principal y la raíz. Verificar el despliegue, abrir la URL pública sin autenticación, repetir controles e interacciones y comprobar que el commit desplegado corresponde al reportado. La publicación y la prueba pública siguen pendientes: una vista local no las sustituye.
+La usuaria autorizó expresamente la publicación el 2 de septiembre de 2026. Se creó el repositorio público en la cuenta marianaog30, se subieron exclusivamente los archivos revisados y se activó Pages desde `main` y `/ (root)`, con HTTPS obligatorio.
+
+El primer despliegue [terminó correctamente](https://github.com/marianaog30/ai-tools-logifresh-OROZCO/actions/runs/33710266546) y se verificó el dashboard publicado: los ocho casos del oráculo, filtros combinados, restablecimiento, estado vacío y pantalla de 390 px. Además, ocho destinos HTTP respondieron 200 sin credenciales y coincidieron byte por byte con sus archivos locales. Evidencia: `tests/public-browser-results.json`, `tests/public-resources.json` y capturas `evidence/public-*.png`.
+
+El código funcional validado pertenece al commit `75c8fdc50324651f3155d9dfdc5f3b7c9f02e7f6`. Los commits posteriores incorporan documentación y evidencia; mantienen los mismos cinco archivos de aplicación. El SHA de cada publicación se puede consultar en [Actions](https://github.com/marianaog30/ai-tools-logifresh-OROZCO/actions) y en [el historial de main](https://github.com/marianaog30/ai-tools-logifresh-OROZCO/commits/main/); la entrega final identifica el SHA desplegado tras integrar las evidencias.
+
+Para comprobar recursos públicos: `python3 tests/check_site.py https://marianaog30.github.io/ai-tools-logifresh-OROZCO/`. Esta prueba no utiliza cookies ni credenciales; se complementa con las interacciones reales del navegador. El reporte distingue la validación inicial del sitio de la comprobación del commit final.
